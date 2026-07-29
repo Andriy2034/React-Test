@@ -1,0 +1,31 @@
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.name {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.online {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.offline {
+  color: #e74c3c;
+  font-weight: bold;
+}
